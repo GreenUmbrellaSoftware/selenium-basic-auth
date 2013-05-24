@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+version = 0.1
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+ 
+dependencies {
+	testCompile 'org.seleniumhq.selenium:selenium-java:2.33.0'
+    testCompile 'junit:junit:4.11'
+	testCompile 'log4j:log4j:1.2.17'
+}
+
